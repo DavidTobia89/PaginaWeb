@@ -1,0 +1,335 @@
+
+
+.formularios{
+    width: 100%;
+    height: 952px;
+    display: flex;
+}
+
+.ladoIzquierdo{
+    height: 900px;
+    width: 50%;
+}
+.containerForm{
+    padding-top: 180px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    gap: 20px;
+}
+.containerForm h2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+}
+
+
+.botones{
+    display: flex;
+    width: 100%;
+    gap: 47px;
+}
+.google-btn{
+    display: flex;
+    border: none;
+    width: 227px;
+    height: 45px;
+    outline: none;
+    border-radius: 9px;
+    background-color: rgb(1, 43, 134);
+    border: 1px solid rgb(88, 88, 88);
+    transition: all 0.2s;
+}
+.google-btn:hover{
+    background-color: rgb(71, 119, 223);
+}
+.google-btn picture{
+    border: none;
+    width: 100%;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    cursor: pointer;
+}
+.G{
+    display: flex;
+    align-items: center;
+    width: 15%;
+}
+.apple-btn{
+    display: flex;
+    border: none;
+    width: 227px;
+    height: 45px;
+    outline: none;
+    border-radius: 9px;
+    background-color: white;
+    border: 1px solid rgb(88, 88, 88);
+    transition: all 0.2s;
+}
+.apple-btn:hover{
+    box-shadow: 0 0 6px #ccc;
+}
+.apple-btn picture{
+    background-color: white;
+    border: none;
+    width: 100%;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    cursor: pointer;
+}
+.A{
+    display: flex;
+    align-items: center;
+    width: 14%;
+}
+
+.separador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+.separador hr{
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid rgb(94, 93, 93);
+}
+.separador span{
+    color: #ccc;
+    font-weight: 600;
+}
+
+.emailInput{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+}
+.emailLabel span{
+    font-size: 150%;
+}
+.emailLabel input{
+    width: 496px;
+    height: 45px;
+    background-color: rgb(37, 37, 37);
+    border: 1px solid rgb(70, 70, 70);
+    outline: none;
+    border-radius: 8px;
+    transition: all 0.3s;
+    color: white;
+}
+.emailLabel input:hover{
+    border: 1.5px solid blue;
+}
+input::placeholder{
+    padding-left: 20px;
+}
+.contraseñaLabel span{
+    font-size: 150%;
+}
+.contraseñaLabel input{
+    width: 496px;
+    height: 45px;
+    background-color: rgb(37, 37, 37);
+    border: 1px solid rgb(70, 70, 70);
+    outline: none;
+    border-radius: 8px;
+    transition: all 0.3s;
+    color: white;
+}
+.contraseñaLabel input:hover{
+    border: 1.5px solid blue;
+}
+.contraInput{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+}
+.botones_salida{
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    gap: 47px;
+}
+.btnAceptar{
+    display: flex;
+    border: none;
+    width: 227px;
+    height: 45px;
+    outline: none;
+    border-radius: 9px;
+    background-color: rgb(1, 43, 134);
+    border: 1px solid rgb(88, 88, 88);
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.btnAceptar:hover{
+    background-color: rgb(71, 119, 223);
+}
+.btnAceptar span{
+    color: #ccc;
+    font-size: large;
+    font-weight: 600;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.btnInicio{
+    display: flex;
+    border: none;
+    width: 227px;
+    height: 45px;
+    outline: none;
+    border-radius: 9px;
+    background-color: rgb(1, 43, 134);
+    border: 1px solid rgb(88, 88, 88);
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.btnInicio:hover{
+    background-color: rgb(71, 119, 223);
+}
+.btnInicio span{
+    color: #ccc;
+    font-size: large;
+    font-weight: 600;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.enlaces{
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    gap: 40px;
+}
+.forgot{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.forgot a:link{
+    color: #ccc;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+.forgot a:hover{
+    color: rgb(40, 97, 219);
+    font-weight: 600;
+}
+.forgot a:visited{
+    color: #ccc;
+}
+.sinCuenta{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+.sinCuenta a:link{
+    color: #ccc;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+.sinCuenta a:hover{
+    color: rgb(40, 97, 219);
+    font-weight: 600;
+}
+.sinCuenta a:visited{
+    color: #ccc;
+}
+
+
+
+
+
+
+
+
+
+.ladoDerecho{
+    margin: 0;
+    height: 600px;
+    width: 50%;
+}
+
+/*carrusel fotos*/
+.contenido_carrusel{
+    height: 952px;
+    overflow: hidden;
+}
+.itemCarrusel{
+    height: 100%;
+    position: relative;
+}
+.imagenes_carrusel{
+    height: 100%;
+}
+
+.flechas_carrusel{
+    height: 100%;
+    width: 95.5%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+#imagen1{
+    background-color: rgb(9, 119, 119);
+}
+#imagen1 img{
+    width: 100%;
+    height: 100%;
+}
+#imagen2{
+    background-color: rgb(26, 3, 68);
+}
+#imagen2 img{
+    width: 100%;
+    height: 100%;
+}
+
+#imagen3{
+    background-color: rgb(4, 53, 2);
+}
+#imagen3 img{
+    width: 100%;
+    height: 100%;
+}
+
+#imagen4{
+    background-color: rgb(78, 27, 3);
+}
+
+.itemCarrusel a{
+    text-decoration: none;
+}
+.contenido_carrusel p{
+    color: white;
+    font-size: 3em;
+}
+/*.imagenFondo{
+    
+    width: 100%;
+}*/
+
+
+
