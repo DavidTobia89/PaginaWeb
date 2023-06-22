@@ -1,0 +1,793 @@
+
+<!DOCTYPE html>
+<html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Carrito - TodoGaming</title>
+        <link rel ="stylesheet" type= "text/css" href="estilos/descripcion_juegos.css">
+        <link rel="stylesheet" type="text/css" href="estilos/Estilo_juegos.css">
+        <link rel="stylesheet" href="estilos/estilos.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    </head>
+    <body>
+      <header>
+        <div class="headerCompleto">
+        <div class="logo">
+            <a href="index.html"><img src="iconos/TodoGaming1.png" height="110px" /></a>
+        </div>
+        <nav class="header">
+                <ul class="nav">
+                    <li> <a href="EleccionPC.html"> PC </a></li>
+                    <li> <a href="EleccionPLAY.html"> Play Station </a></li>
+                    <li> <a href=""> Categorias </a> 
+                        <ul class="categorias">
+                            <li> <a href = "EleccionCiencia.html"> Ciencia Ficción </a></li>
+                            <li> <a href = "EleccionAccion.html"> Acción </a></li>
+                            <li> <a href = "EleccionAventura.html"> Aventura/Supervivencia </a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+        </nav>
+        <div class="iconosHeader">
+            <form method="post" action="Compra" > 
+                <button type="submit" width="200" height="200" name="origen" value="login" style="background-color: #00113eed;">
+                         <img src="iconos/icons8-usuario-masculino-en-círculo-50_1.png" width="30px" height="30px"/> 
+                        
+                </button> </form>
+             <form method="post" action="Compra" >
+                    <button type="submit" width="200" height="200" name="origen" value="Finalizar compra" style="background-color: #00113eed;">
+                         <img src="iconos/icons8-carrito-de-compras-material-rounded-32.png" width="30px" height="30px"/> 
+                         
+                    </button>
+                </form>
+       </div>
+    </div>
+    </header>
+         <% String articulo= (String)refsesion.getAttribute("submit");%>
+         <%String modelo=null;%>
+         
+         <%int precio=0;%>
+    <center> <h1><%= articulo%></h1>
+       
+         <% if(articulo.equals("Neighbor 2")){ modelo="Neighbor 2"; precio=20; %>
+             <div>
+        <div id="australia-slider">
+            <ul class="slider">
+                <li id="slide1">
+                    
+                    <img src="imagenes/hello/Hello-imagen1.jpg" /></a>
+                </li>
+                <li id="slide2">
+                    
+                    <img src="imagenes/hello/Hello-imagen2.jpg" />
+                </li>
+                <li id="slide3">
+                    
+                    <img src="imagenes/hello/Hello-imagen3.jpg" />
+
+                </li>
+                <li id="slide4">
+                    
+                    <img src="imagenes/hello/Hello-imagen4.jpg" />
+                </li>
+            </ul>
+
+            <ul class="menu">
+                <li>
+                    <a href="#slide1">1</a>
+                </li>
+                <li>
+                    <a href="#slide2">2</a>
+                </li>
+                <li>
+                    <a href="#slide3">3</a>
+                </li>
+                <li>
+                    <a href="#slide4">4</a>
+                </li>
+            </ul>
+        </div>
+        <div class="descricpion">
+            <div class="descripcion_parrafo">
+                <p>
+                    <b>Hello Neighbor 2</b><br />
+                    <br />
+                    Hello Neighbor 2 para PC es un juego de terror y 
+                    supervivencia ambientado en el mismo paisaje urbano que el primer juego de la serie, 
+                    del que éste es la secuela directa. Sin embargo, también hay varios spin-offs y 
+                    secuelas del juego que merece la pena consultar si te gusta la ciudad de Raven Brooks y
+                     sus espeluznantes sucesos (más abajo encontrarás los detalles de todos ellos).
+                    <br />
+                    <br />
+                    <b>Acerca del Juego</b><br />
+                    <br />
+                    En el primer juego, eras un niño que intentaba entrar en la casa del Sr. Peterson (tu vecino) 
+                    para averiguar la verdad sobre su hijo desaparecido hace tiempo, sobre su casa bien vigilada y 
+                    el sótano definitivamente más espeluznante de lo habitual. 
+                    Aquel juego se desarrollaba en forma de varios capítulos, 
+                    cada uno de los cuales debía resolverse antes de poder acceder al siguiente mapa y 
+                    arco de la historia.
+                    <br />
+                    <br />
+                    En esta edición, eres el intrépido reportero de investigación Quentin, 
+                    que quiere saber exactamente por qué el pueblo de Raven Brooks ha sido presa 
+                    de una oleada de misteriosas desapariciones. Y, una vez más, 
+                    la atención del juego se centra en la ahora abandonada casa del Sr. Peterson,
+                     que podría no estar tan abandonada como parece.
+                    <br />
+                    <br />
+                    A diferencia del primer juego, que estaba formado por distintos capítulos, 
+                    en este la ciudad es de mundo abierto y puedes explorarla a tu antojo, 
+                    realizando las misiones en el orden que quieras una vez desbloqueadas. 
+                    Y el Sr. Peterson no es el único vecino dudoso esta vez: varios de ellos tienen casas 
+                    con trampas en las que te retan a intentar colarte.
+                    <br />
+                    <br />
+                    Sin embargo, la búsqueda de la verdad por parte de Quentin solo ha suscitado más preguntas: 
+                    ¿quién es el misterioso hombre de las sombras que se ha visto en la casa del Sr. Peterson? 
+                    ¿Es ese NPC un amigo que le guiará por el buen camino o un villano que tiene nefastas
+                     intenciones? Y, ¿por qué hay tanta gente en este pueblo que tiene algo que ocultar?
+                </p>
+            </div>
+
+            <div class="descripcion_parrafo_1">
+                <p class="primer_color"><b>Características Mínimas Del Ordenador:</b></p>
+                <p class="primer_color">OS:</p>
+                <p class="primer_color">Processor:</p>
+                <p class="primer_color">Memory:</p>
+                <p class="primer_color">Graphics: </p>
+                <p class="primer_color">DirectX:</p>
+                <p class="primer_color">Storage:</p>
+                <p class="primer_color"><b>Características Recomendada:</b></p>
+                <p class="primer_color">OS:</p>
+                <p class="primer_color">Processor:</p>
+                <p class="primer_color">Memory:</p>
+                <p class="primer_color">Graphics: </p>
+                <p class="primer_color">DirectX:</p>
+                <p class="primer_color">Storage:</p>
+            </div>
+            <div class="descripcion_parrafo_1">
+                <p class="segundo_color"><br /></p>
+                <p class="segundo_color">Windows 10/11 x64</p>
+                <p class="segundo_color">Intel i3 4th gen / AMD Athlon X4 880K</p>
+                <p class="segundo_color">6 GB RAM</p>
+                <p class="segundo_color">GeForce GTX 750 Ti / AMD Radeon HD 7850</p>
+                <p class="segundo_color">Version 12</p>
+                <p class="segundo_color">20 GB available space</p>
+                <p class="segundo_color"><br /></p>
+                <p class="segundo_color">Windows 10/11 x64</p>
+                <p class="segundo_color">Intel i5-4760 / AMD FX 9370</p>
+                <p class="segundo_color">16 GB RAM</p>
+                <p class="segundo_color">GeForce GTX 1660 Ti / AMD Radeon RX Vega</p>
+                <p class="segundo_color">Version 12</p>
+                <p class="segundo_color">20 GB available space</p>
+            </div>
+        </div>
+         <% }else if(articulo.equals("Age Of Empires II")){ modelo="Age Of Empires II";precio=20; %>    
+             <div>
+        <div id="australia-slider">
+            <ul class="slider">
+                <li id="slide1">
+                    
+                    <img src="imagenes/age/Age-imagen1.jpg" /></a>
+                </li>
+                <li id="slide2">
+                    
+                    <img src="imagenes/age/Age-imagen2.jpg" />
+                </li>
+                <li id="slide3">
+                   
+                    <img src="imagenes/age/Age-imagen3.jpg" />
+
+                </li>
+                <li id="slide4">
+                    
+                    <img src="imagenes/age/Age-imagen4.jpg" />
+                </li>
+            </ul>
+
+            <ul class="menu">
+                <li>
+                    <a href="#slide1">1</a>
+                </li>
+                <li>
+                    <a href="#slide2">2</a>
+                </li>
+                <li>
+                    <a href="#slide3">3</a>
+                </li>
+                <li>
+                    <a href="#slide4">4</a>
+                </li>
+            </ul>
+        </div>
+        <div class="descricpion">
+            <div class="descripcion_parrafo">
+              <p>
+                <b>Age of Empires II:</b><br />
+                <br />
+                Age of Empires II: Definitive Edition para PC es el relanzamiento del clásico de estrategia en tiempo real 
+                en su vigésimo aniversario. El juego conserva todo el encanto y la popularidad del original, 
+                pero lo combina con veinte años de mejoras en el mundo de los juegos: gráficos de alta definición, 
+                jugabilidad y visuales mejorados y cuatro nuevas civilizaciones, así como una nueva campaña para un jugador llamada
+                 The Last Khans.
+                <br />
+                <br />
+                <b>Sobre el Juego</b><br />
+                <br />
+                El mayor cambio en la programación se puede encontrar en una curiosa elección que los jugadores deben hacer al 
+                principio del juego: si optan por la vieja IA como oponente o si optan por la nueva IA, una versión actualizada 
+                diseñada específicamente para esta Definitive Edition. <br />
+      
+                <br />
+                Quizás piensas que no debería haber ninguna diferencia real entre las dos, pero la vieja IA se construyó hace varias 
+                generaciones y en realidad necesitaba hacer trampa para ganar. Esto es sin duda frustrante y aún puede serlo si eliges 
+                esta opción. <br />
+                <br />
+                La nueva IA es lo suficientemente sofisticada y tiene suficiente potencia como para no hacer trampa, 
+                lo que significa que si el jugador es derrotado, es al menos una victoria honesta por parte de la CPU.
+                Sin embargo, una pequeña advertencia: cuando los dos tipos de IA se jugaron uno contra el otro, 
+                el nuevo derrotó fácilmente al viejo, por lo que quizás un jugador astuto con ingenio y algo de suerte puede vencer
+                 al viejo sistema más fácilmente que al nuevo. La única forma de averiguarlo es probar ambos.<br />
+                <br />
+                Se han ajustado algunos sistemas para que el juego sea más ágil, como poder dejar a los aldeanos a cargo de las granjas, 
+                por lo que ya no hay necesidad de regresar cada temporada y decirles qué hacer. Tus granjas se repondrán a ritmo constante. La búsqueda de caminos y la gestión de grandes ejércitos también se ha mejorado, con la búsqueda de caminos intuitiva, por lo que puedes avanzar sin dolores de cabeza mientras expandes tu imperio.
+                <br />
+                <br />
+                
+      
+              </p>
+            </div>
+            <div class="descripcion_parrafo_1">
+                <p class="primer_color"><b>Características Mínimas Del Ordenador:</b></p>
+                <p class="primer_color">OS:</p>
+                <p class="primer_color">Processor:</p>
+                <p class="primer_color">Memory:</p>
+                <p class="primer_color">Graphics: </p>
+                <p class="primer_color">Network:</p>
+                <p class="primer_color">Storage:</p>
+                <p class="primer_color"><b>Características Recomendada:</b></p>
+                <p class="primer_color">OS:</p>
+                <p class="primer_color">Processor:</p>
+                <p class="primer_color">Memory:</p>
+                <p class="primer_color">Graphics: </p>
+                <p class="primer_color">Network:</p>
+                <p class="primer_color">Storage:</p>
+            </div>
+            <div class="descripcion_parrafo_1">
+                <p class="segundo_color"><br /></p>
+                <p class="segundo_color">Windows 10 64bit</p>
+                <p class="segundo_color">Intel Core 2 Duo or AMD Athlon 64x2 5600+</p>
+                <p class="segundo_color">4 GB RAM</p>
+                <p class="segundo_color">NVIDIA GeForce GT 420/Intel HD Graphics 4000</p>
+                <p class="segundo_color">Broadband Internet connection</p>
+                <p class="segundo_color">43 GB available space</p>
+                <p class="segundo_color"><br /></p>
+                <p class="segundo_color">Windows 10 - April 2018 Update (v1803)</p>
+                <p class="segundo_color">2.4 Ghz i5 or greater or AMD equivalent</p>
+                <p class="segundo_color">8 GB RAM</p>
+                <p class="segundo_color">Nvidia GTX 650 or AMD HD 5850 or better</p>
+                <p class="segundo_color">Broadband Internet connection</p>
+                <p class="segundo_color">43 GB available space</p>
+            </div>
+        </div>
+         <% }else if(articulo.equals("AssasingPC")){ modelo="AssasingPC";precio=59; %> 
+            <div>
+        <div id="australia-slider">
+            <ul class="slider">
+                <li id="slide1">
+
+                    <img src="imagenes/Assasing/ACValhalla_1.jpg" /></a>
+                </li>
+                <li id="slide2">
+                    
+                    <img src="imagenes/Assasing/ACValhalla_2.jpg" />
+                </li>
+                <li id="slide3">
+                    
+                    <img src="imagenes/Assasing/ACValhalla_4.jpg" />
+
+                </li>
+                <li id="slide4">
+
+                    <img src="imagenes/Assasing/ACValhalla_3.jpg" />
+                </li>
+            </ul>
+
+            <ul class="menu">
+                <li>
+                    <a href="#slide1">1</a>
+                </li>
+                <li>
+                    <a href="#slide2">2</a>
+                </li>
+                <li>
+                    <a href="#slide3">3</a>
+                </li>
+                <li>
+                    <a href="#slide4">4</a>
+                </li>
+            </ul>
+        </div>
+        <div class="descricpion">
+            <div class="descripcion_parrafo">
+                <p>
+                    <b>Assassin Creed Valhalla</b><br />
+                    <br />
+                    Assassin’s Creed Valhalla es compatible con la tecnología Smart Delivery: compra el juego una vez y
+                    juégalo tanto en Xbox One como en Xbox Series X cuando la consola y la versión correspondiente de
+                    Assassin’s Creed Valhalla estén disponibles.
+                    <br />
+                    <br />
+                    En Assassin's Creed® Valhalla, encarnarás a Eivor,
+                    una feroz leyenda vikinga criada entre historias de batallas y gloria.
+                    Explora un hermoso mundo abierto y cambiante ambientado en la despiadada Inglaterra de los años
+                    oscuros.
+                    Saquea a tus enemigos, haz prosperar tu asentamiento y consolida tu poder político mientras luchas
+                    por ganarte un sitio entre los dioses en el Valhalla.
+                    <br />
+                    <br />
+                    <b>ESCRIBE TU PROPIA SAGA VIKINGA: </b><br />
+                    <br />
+                    Las avanzadas mecánicas de RPG te permitirán moldear a tu personaje y al mundo que lo rodea.
+                    Forjarás tu camino hacia la gloria con cada decisión que tomes,
+                    desde alianzas políticas hasta estrategias de combate, pasando por opciones de diálogo y
+                    equipo.<br />
+                    <br />
+                    <b>UN SISTEMA DE COMBATE BRUTAL: </b><br />
+                    <br />
+                    Lucha a dos manos con poderosas armas como hachas, espadas e incluso escudos. Revive el implacable
+                    estilo de lucha de los guerreros vikingos. Decapita sin piedad a tus enemigos, ensártalos desde
+                    lejos o asesínalos desde las sombras gracias a tu hoja oculta. Ponte a prueba con los enemigos más
+                    variados y letales jamás vistos en Assassin's Creed.<br />
+                    <br />
+                    <b>UN MUNDO ABIERTO AMBIENTADO EN LOS AÑOS OSCUROS: </b><br />
+                    <br />
+                    Navega desde las escarpadas y misteriosas costas de Noruega hasta los imponentes reinos de Inglaterra, 
+                    tan hermosos como crueles, y explora nuevos horizontes. Sumérgete en el estilo de vida vikingo: 
+                    pesca, caza, juegos de beber y mucho más.<br />
+                    <br />
+                    <b>DIRIGE SAQUEOS ÉPICOS: </b><br />
+                    <br />
+                    Lanza asaltos multitudinarios contra fortalezas y tropas sajonas por toda Inglaterra. 
+                    Lidera a tu clan, ataca por sorpresa desde tu drakkar, saquea territorios enemigos y arrebátales riquezas
+                    y recursos para tu pueblo.<br />
+                    <br />
+                    <b>HAZ PROSPERAR TU ASENTAMIENTO: </b><br />
+                    <br />
+                    Personaliza aún más tu aventura construyendo y mejorando edificios, desde barracones hasta una herrería,
+                    pasando por un salón de tatuajes y mucho más. 
+                    Recluta miembros para tu clan y crea tu propia experiencia vikinga.<br />
+                    <br />
+                    <b>VIKINGOS MERCENARIOS:  </b><br />
+                    <br />
+                    Crea y personaliza a un saqueador vikingo único en tu clan y compártelo en línea para que ayude a tus amigos en sus saqueos.<br />
+                    <br />
+                </p>
+            </div>
+
+            <div class="descripcion_parrafo_1">
+                <p class="primer_color"><b>Características Mínimas Del Ordenador:</b></p>
+                <p class="primer_color">OS:</p>
+                <p class="primer_color">Processor:</p>
+                <p class="primer_color">Memory:</p>
+                <p class="primer_color">Graphics: </p>
+                <p class="primer_color">DirectX:</p>
+                <p class="primer_color">Storage:</p>
+                <p class="primer_color"><b>Características Recomendada:</b></p>
+                <p class="primer_color">OS:</p>
+                <p class="primer_color">Processor:</p>
+                <p class="primer_color">Memory:</p>
+                <p class="primer_color">Graphics: </p>
+                <p class="primer_color">DirectX:</p>
+                <p class="primer_color">Storage:</p>
+            </div>
+            <div class="descripcion_parrafo_1">
+                <p class="segundo_color"><br /></p>
+                <p class="segundo_color">Windows 10/11 x64</p>
+                <p class="segundo_color">Intel i5 4460 / AMD RYDEN 3 1200 3.10GHZ</p>
+                <p class="segundo_color">8 GB RAM</p>
+                <p class="segundo_color">GeForce GTX 960 4GB / AMD R9 380 4GB</p>
+                <p class="segundo_color">LOW PRESET</p>
+                <p class="segundo_color">50 GB available space</p>
+                <p class="segundo_color"><br /></p>
+                <p class="segundo_color">Windows 10/11 x64</p>
+                <p class="segundo_color">Intel i5 4790 / AMD RYDEN 5 1600 3.2GHZ</p>
+                <p class="segundo_color">8 GB RAM</p>
+                <p class="segundo_color">GeForce GTX 1060 6GB / AMD RX 570 8GB</p>
+                <p class="segundo_color">HIGH PRESET</p>
+                <p class="segundo_color">ssd (50gb)</p>
+            </div>
+        </div>
+         <% }else if(articulo.equals("MinecraftPC")){ modelo="MinecraftPC";precio=25; %>
+            <div>
+            <div id="australia-slider">                    
+              <ul class="slider"> 
+                  <li id="slide1">
+                    
+                    <img src="imagenes/minecraft/Minecraft-imagen1.jpg" /></a>
+                  </li>
+                  <li id="slide2">
+                   
+                    <img src="imagenes/minecraft/Minecraft-imagen2.jpg"/>
+                  </li>
+                  <li id="slide3">
+                    
+                     <img src="imagenes/minecraft/Minecraft-imagen3.jpg"/>
+                    
+                  </li>
+                  <li id="slide4">
+                    
+                    <img src="imagenes/minecraft/Minecraft-imagen4.jpg"/>
+                  </li>
+                </ul>
+                
+                <ul class="menu">
+                  <li>
+                    <a href="#slide1">1</a>
+                  </li>
+                  <li>
+                    <a href="#slide2">2</a>
+                  </li>
+                   <li>
+                    <a href="#slide3">3</a>
+                  </li>
+                  <li>
+                    <a href="#slide4">4</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="descricpion">
+                <div class="descripcion_parrafo">
+                  <p>
+                    <b>Minecraft: Story Mode</b><br />
+                    <br />
+                      Vuelve la aventura decisiva para Minecrafters, Minecraft: Story Mode. 
+                      Jesse se embarca en un nuevo viaje lleno de difíciles decisiones. 
+                      Minecraft: Story Mode regresa como serie episódica de cinco capítulos que podrás ir descargando a medida
+                      que se encuentren disponibles. Varios años después del final de la Orden de piedra, 
+                      Jesse es el líder de Beacontown y ha descubierto el guantalete Prismarine, 
+                      una reliquia de increíble poder. Junto a sus viejos amigos y nuevos compañeros,
+                      Jesse se embarca en un nuevo viaje lleno de decisiones difíciles, 
+                      diversión y al menos una llama temperamental.
+                      <br />
+                      <br />
+                    <b>Características principales</b><br />
+                    <br />
+                    - Jesse se embarca en un nuevo viaje lleno de decisiones difíciles, diversión y al menos una llama temperamental.<br />
+                    <br />
+                    - Pase de temporada: Incluye el primero de los Cinco nuevos y emocionantes episodios y 
+                      un enlace para descargar los próximos cuatro episodios cuando estos ya estén disponibles.<br />
+                    <br />
+                    - Compatible con la opción Crowd Play, un modo multijugador ideado por Telltale donde amigos y 
+                      familiares pueden ayudar al jugador principal a tomar decisiones con un dispositivo móvil conectado para tal efecto.<br />
+                      <br />
+                    - Fusión del universo Minecraft y el estilo narrativo de Telltale Games: Mediante sus decisiones, 
+                      el jugador irá incorporando elementos tan populares y característicos de Minecraft como la posibilidad de cavar, y determinará cómo se cuenta su historia. <br />
+          
+                    <br />
+                  </p>
+                </div>
+          
+                <div class="descripcion_parrafo_1">
+                    <p class="primer_color"><b>Características Mínimas Del Ordenador:</b></p>
+                    <p class="primer_color">OS:</p>
+                    <p class="primer_color">Processor:</p>
+                    <p class="primer_color">Memory:</p>
+                    <p class="primer_color">Graphics: </p>
+                    <p class="primer_color">Network:</p>
+                    <p class="primer_color">Storage:</p>
+                    <p class="primer_color"><b>Características Recomendada:</b></p>
+                    <p class="primer_color">OS:</p>
+                    <p class="primer_color">Processor:</p>
+                    <p class="primer_color">Memory:</p>
+                    <p class="primer_color">Graphics: </p>
+                    <p class="primer_color">Network:</p>
+                    <p class="primer_color">Storage:</p>
+                </div>
+                <div class="descripcion_parrafo_1">
+                    <p class="segundo_color"><br /></p>
+                    <p class="segundo_color">Windows 10 </p>
+                    <p class="segundo_color">Pentium 4 1.6GHz / Athlon XP 1600+</p>
+                    <p class="segundo_color">500 MB</p>
+                    <p class="segundo_color">GeForce 4 MX 440 / Radeon HD 3200</p>
+                    <p class="segundo_color">Broadband Internet connection</p>
+                    <p class="segundo_color">1 GB available space</p>
+                    <p class="segundo_color"><br /></p>
+                    <p class="segundo_color">Windows 10 </p>
+                    <p class="segundo_color">Pentium 4 3.0GHz / Athlon XP 2600+</p>
+                    <p class="segundo_color">1 GB</p>
+                    <p class="segundo_color">GeForce 8600 GS / Radeon HD 6320</p>
+                    <p class="segundo_color">Broadband Internet connection</p>
+                    <p class="segundo_color">1 GB available space</p>
+                </div>
+            
+          
+              </div>
+          <% }else if(articulo.equals("Red DeadPC")){ modelo="Red DeadPC";precio=45; %> 
+            <div>
+    <div id="australia-slider">
+      <ul class="slider">
+        <li id="slide1">
+
+          <img src="imagenes/red/RDR2_3.jpg" /></a>
+        </li>
+        <li id="slide2">
+
+          <img src="imagenes/red/RDR2_2.jpg" />
+        </li>
+        <li id="slide3">
+
+          <img src="imagenes/red/RDR2.jpg" />
+
+        </li>
+        <li id="slide4">
+
+          <img src="imagenes/red/RDR1.jpg" />
+        </li>
+      </ul>
+
+      <ul class="menu">
+        <li>
+          <a href="#slide1">1</a>
+        </li>
+        <li>
+          <a href="#slide2">2</a>
+        </li>
+        <li>
+          <a href="#slide3">3</a>
+        </li>
+        <li>
+          <a href="#slide4">4</a>
+        </li>
+      </ul>
+    </div>
+    <div class="descricpion">
+      <div class="descripcion_parrafo">
+        <p>
+          <b>Red Dead Redemption 2</b><br />
+          <br />
+          América, 1899.
+
+          Arthur Morgan y la banda de Van der Linde son forajidos en busca y captura.
+          Mientras los agentes federales y los mejores cazarrecompensas de la nación les pisan los talones,
+          la banda deberá abrirse camino por el abrupto territorio del corazón de América y sobrevivir a base de robos y
+          peleas. Arthur deberá elegir entre sus propios ideales y la lealtad a la banda que lo vio crecer.
+
+
+
+
+          <br />
+          <br />
+          <b>Características principales</b><br />
+          <br />
+          Con contenido adicional para el Modo Historia y un completo modo Foto, Red Dead Redemption 2 también incluye
+          acceso gratuito al mundo multijugador compartido de Red Dead Online, en el que los jugadores asumen diversos
+          roles para ganarse la vida a su manera en la frontera mientras persiguen a fugitivos buscados como
+          cazarrecompensas, crean un negocio como comerciantes, descubren exóticos tesoros como coleccionistas, dirigen
+          una destilería ilegal como licoristas y muchas cosas más. <br />
+
+          <br />
+          <u>Descripción completa</u> <br />
+          <br />
+          Gracias a las nuevas mejoras gráficas y técnicas que permiten una mayor inmersión en el juego,
+          Red Dead Redemption 2 para PC aprovecha al máximo la potencia de los equipos para conseguir que todos y
+          cada uno de los aspectos de este gigantesco mundo lleno de detalles cobren vida.
+          Incluye mayores distancias de dibujado; iluminación global y oclusión ambiental de mayor calidad,
+          para mejorar la luz tanto de día como de noche; reflejos mejorados y sombras más profundas y
+          de mayor resolución a todas las distancias; texturas de árboles teseladas y texturas de hierba y
+          pelaje mejoradas para aumentar el realismo de las plantas y animales.<br />
+          <br />
+
+          Red Dead Redemption 2 para PC también ofrece compatibilidad con HDR,
+          la posibilidad de utilizar pantallas de alta gama (con resoluciones 4K y superiores),
+          configuraciones con varios monitores, con pantalla panorámica, mayores tasas de fotogramas, etc.<br />
+          <br />
+          
+
+        </p>
+      </div>
+
+      <div class="descripcion_parrafo_1">
+        <p class="primer_color"><b>Características Mínimas Del Ordenador:</b></p>
+        <p class="primer_color">OS:</p>
+        <p class="primer_color">Processor:</p>
+        <p class="primer_color">Memory:</p>
+        <p class="primer_color">Graphics: </p>
+        <p class="primer_color">Network:</p>
+        <p class="primer_color">Storage:</p>
+        <p class="primer_color"><b>Características Recomendada:</b></p>
+        <p class="primer_color">OS:</p>
+        <p class="primer_color">Processor:</p>
+        <p class="primer_color">Memory:</p>
+        <p class="primer_color">Graphics: </p>
+        <p class="primer_color">Network:</p>
+        <p class="primer_color">Storage:</p>
+    </div>
+    <div class="descripcion_parrafo_1">
+        <p class="segundo_color"><br /></p>
+        <p class="segundo_color">Windows 10 - April 2018 Update (v1803)</p>
+        <p class="segundo_color">Intel Core i7-4770K / AMD Ryzen 5 1500X</p>
+        <p class="segundo_color">12 GB RAM</p>
+        <p class="segundo_color">Nvidia GeForce GTX 1060/ AMD Radeon RX 480</p>
+        <p class="segundo_color">Broadband Internet connection</p>
+        <p class="segundo_color">150 GB available space</p>
+        <p class="segundo_color"><br /></p>
+        <p class="segundo_color">Windows 10 - April 2018 Update (v1803)</p>
+        <p class="segundo_color">Intel Core i7-4770K / AMD Ryzen 5 1500X</p>
+        <p class="segundo_color">12 GB RAM</p>
+        <p class="segundo_color">Nvidia GeForce GTX 1060/ AMD Radeon RX 480</p>
+        <p class="segundo_color">Broadband Internet connection</p>
+        <p class="segundo_color">150 GB available space</p>
+    </div>
+
+    </div>
+         <% }else if(articulo.equals("HorizonPC")){ modelo="HorizonPC";precio=59; %>
+             <div>
+            <div id="australia-slider">                    
+              <ul class="slider"> 
+                  <li id="slide1">
+                    
+                    <img src="imagenes/Horizon/Horizon_imagen1.jpg" /></a>
+                  </li>
+                  <li id="slide2">
+                    
+                    <img src="imagenes/Horizon/Horizon_imagen2.jpg"/>
+                  </li>
+                  <li id="slide3">
+                     
+                     <img src="imagenes/Horizon/Horizon_imagen3.jpg"/>
+                    
+                  </li>
+                  <li id="slide4">
+                    
+                    <img src="imagenes/Horizon/Horizon_imagen4.jpg"/>
+                  </li>
+                </ul>
+                
+                <ul class="menu">
+                  <li>
+                    <a href="#slide1">1</a>
+                  </li>
+                  <li>
+                    <a href="#slide2">2</a>
+                  </li>
+                   <li>
+                    <a href="#slide3">3</a>
+                  </li>
+                  <li>
+                    <a href="#slide4">4</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="descricpion">
+                <div class="descripcion_parrafo">
+                    <p>
+                        <b>Horizon ZERO DAWN</b><br />
+                        <br />
+                        Horizon Zero Dawn for PC es un RPG de acción en el que controlas a Aloy, 
+                        una superviviente humana en un paisaje distópico del siglo 31. 
+                        Los humanos pueden ser raros y el acceso a la tecnología es limitado, 
+                        pero hay una gran población de criaturas robóticas hostiles (que originalmente fueron creadas por empresas tecnológicas, 
+                        que luego perdieron el control de ellas).
+                        <br />
+                        <br />
+                        <b>Acerca del Juego  </b><br />
+                        <br />
+                        Aloy se las arregla rebuscando entre los restos de las criaturas robóticas en busca de componentes eléctricos que le permiten su propia supervivencia. También puede usar otras partes de las criaturas para fabricar armas y equipo que la ayuden a sobrevivir y triunfar. Las criaturas robóticas se agrupan, como si fueran manadas de vida silvestre de la vida real, y generalmente no se atacan entre sí a menos que hayan sido alcanzadas con flechas de corrupción o hayan sido pirateadas con una herramienta de anulación.
+                        <br />
+                        <br />
+                        Sin embargo, atacan cuando sienten una amenaza, pero tienden a usar la fuerza bruta en lugar de la delicadeza, y todos tienen diferentes modos de ataque y defensa. Tus diversas armas tienen opciones de modificación que te permiten aumentar las capacidades ofensivas de las armas para obtener efectos más dramáticos, y Aloy usa un pequeño escáner montado en su cabeza llamado Foco que la ayuda a concentrarse en su presa. Sin embargo, el Acechador, en particular, puede evitar esto con tecnología de camuflaje sigiloso.
+                        <br />
+                        <br />
+                        Aloy también lucha contra enemigos humanos: hay bandidos y una secta espeluznante de la que mantenerse alejado, entre otros. Aloy fue rechazada por su tribu cuando era más joven, luego fue adoptada por Rost, quién le enseñó todo lo que sabe y ejerce de figura paterna. Pero ella quiere encontrar la verdad y vale la pena seguir la narrativa a medida que Aloy descubre no solo que tiene una identidad propia, sino que puede cambiar por completo la forma de la humanidad.
+                        <br />
+                        <br />
+                        
+                    </p>
+                </div>
+    
+                <div class="descripcion_parrafo_1">
+                    <p class="primer_color"><b>Características Mínimas Del Ordenador:</b></p>
+                    <p class="primer_color">OS:</p>
+                    <p class="primer_color">Processor:</p>
+                    <p class="primer_color">Memory:</p>
+                    <p class="primer_color">Graphics: </p>
+                    <p class="primer_color">DirectX:</p>
+                    <p class="primer_color">Storage:</p>
+                    <p class="primer_color"><b>Características Recomendada:</b></p>
+                    <p class="primer_color">OS:</p>
+                    <p class="primer_color">Processor:</p>
+                    <p class="primer_color">Memory:</p>
+                    <p class="primer_color">Graphics: </p>
+                    <p class="primer_color">DirectX:</p>
+                    <p class="primer_color">Storage:</p>
+                </div>
+                <div class="descripcion_parrafo_1">
+                    <p class="segundo_color"><br /></p>
+                    <p class="segundo_color">Windows 10/11 x64</p>
+                    <p class="segundo_color">Intel Core i5-2500K 3GHz/AMD FX 6300 5GHz</p>
+                    <p class="segundo_color">8 GB RAM</p>
+                    <p class="segundo_color">Nvidia GeForce GTX 780 / AMD Radeon R9 290</p>
+                    <p class="segundo_color">Version 12</p>
+                    <p class="segundo_color">100 GB available space</p>
+                    <p class="segundo_color"><br /></p>
+                    <p class="segundo_color">Windows 10/11 x64</p>
+                    <p class="segundo_color">IntelCore i7-4770K 3.5GHz/Ryzen 5 1500X.5GHz</p>
+                    <p class="segundo_color">16 GB RAM</p>
+                    <p class="segundo_color">Nvidia GeForce GTX 1060/AMD Radeon RX 580</p>
+                    <p class="segundo_color">Version 12</p>
+                    <p class="segundo_color">100 GB available space</p>
+                </div>
+            </div>
+         <% } %>  
+        </center>
+    <center>
+        <div class="contenedorAñadir">
+            <form method="post" action="Compra">
+                <input type="hidden" name="origen" value="articulo"/>
+                <input type="hidden" name="modelo" value="<%=modelo%>"/>
+                <input type="hidden" name="precio" value="<%=precio%>"/>
+                <center> ¿Cuántas unidades quiere? <input type="number" name="cantidad" value="1" min="1" max="10"/>
+               
+                    </br></br></center>
+                <center> <input type="submit" name="submit" value="         Añadir al carrito        "/></center>
+            </form> 
+        </br><br/>
+            <form method="post" action="Compra">            
+                <input type="hidden" name="origen" value="eliminar"/> 
+                <input type="hidden" name="modelo" value="<%=modelo%>"/>
+                <input type="hidden" name="precio" value="<%=-precio%>"/>
+                <input type="number" name="cantidad" value="1" min="1" max="10"/>
+                <input type="submit" value="Eliminar"/>       
+            </form>
+                </br>
+            <form method="post" action="Compra">            
+                <input type="hidden" name="origen" value="noarticulo"/>          
+                <input type="submit" value="Cancelar"/></center>  
+                    
+            </form>
+        </div>
+      <footer>
+        <div class="superior">
+            <div class="contenedorLogo">
+                <div class="espacioLogo">
+                    <img class="btn-logo" src="iconos/TodoGaming1.png" alt="Logo Agencia">
+                </div>
+            </div>
+            <div class="contenedorDatos">
+              <h3>Sobre nosotros</h3>
+              <p><span class="material-icons">settings_phone</span> 675847583</p>
+              <p><span class="material-icons">forward_to_inbox</span> todogaming@gmail.com</p>
+              <p><span class="material-icons">push_pin</span>IES Clara del Rey</p>
+              <p><span class="material-icons">location_city</span> Madrid, ESPAÑA</p>
+          </div>
+          <div class="contenedorRedes">
+              <div class="titulo">
+                  <h3>Síguenos</h3>
+              </div>
+              <div class="iconos">
+                  <div class="twitter">
+                      <a target="_blank" href="https://twitter.com/?lang=es"><img class="btn-twitter" src="iconos/twitter.png" alt="Logo Twitter"></a>
+                  </div>
+                  <div class="instagram">
+                      <a target="_blank" href="https://www.instagram.com/"><img class="btn-instagram" src="iconos/instagram.png" alt="Logo instagram"></a>
+                  </div>
+                  <div class="snapchat">
+                      <a target="_blank" href="https://www.snapchat.com/es"><img class="btn-snapchat" src="iconos/snapchat.png" alt="Logo snapchat"></a>
+                  </div>
+                  <div class="whatsapp">
+                      <a target="_blank" href="https://web.whatsapp.com/"><img class="btn-whatsapp" src="iconos/whatsapp.png" alt="Logo whatsapp"></a>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="inferior">
+          <p>© Copyright 2001-2023 Copyright.es - Todos los Derechos Reservados</p>
+      </div>
+    </footer>
+    </body>
+</html>
