@@ -1,0 +1,767 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+         <title>TODOGAMING</title>
+         
+        <link rel ="stylesheet" type= "text/css" href="estilos/descripcion_juegos.css">
+        <link rel="stylesheet" type="text/css" href="estilos/Estilo_juegos.css">
+        <link rel="stylesheet" href="estilos/estilos.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+         <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">-->
+    </head>
+    <body>  
+      <header>
+        <div class="headerCompleto">
+        <div class="logo">
+            <a href="index.html"><img src="iconos/TodoGaming1.png" height="110px" /></a>
+        </div>
+        <nav class="header">
+                <ul class="nav">
+                    <li> <a href="EleccionPC.html"> PC </a></li>
+                    <li> <a href="EleccionPLAY.html"> Play Station </a></li>
+                    <li> <a href=""> Categorias </a> 
+                        <ul class="categorias">
+                            <li> <a href = "EleccionCiencia.html"> Ciencia Ficción </a></li>
+                            <li> <a href = "EleccionAccion.html"> Acción </a></li>
+                            <li> <a href = "EleccionAventura.html"> Aventura/Supervivencia </a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+        </nav>
+        <div class="iconosHeader">
+            <form method="post" action="Compra" > 
+                <button type="submit" width="200" height="200" name="origen" value="login" style="background-color: #00113eed;">
+                         <img src="iconos/icons8-usuario-masculino-en-círculo-50_1.png" width="30px" height="30px"/>
+                        
+                </button> </form>
+             <form method="post" action="Compra" >
+                    <button type="submit" width="200" height="200" name="origen" value="Finalizar compra" style="background-color: #00113eed;">
+                         <img src="iconos/icons8-carrito-de-compras-material-rounded-32.png" width="30px" height="30px"/> 
+                        
+                    </button>
+                </form>
+       </div>
+    </div>
+    </header>
+    <center>
+       
+           <% String articulo= (String)refsesion.getAttribute("submit");%>
+         <%String modelo=null;%>
+         
+         <%int precio=0;%>
+         
+         <h1><%= articulo%></h1>
+                 
+         
+         <% if(articulo.equals("THE LAST OF US")){ modelo="THE LAST OF US"; precio=59; %>
+            <div>
+            <div id="australia-slider">                    
+              <ul class="slider"> 
+                  <li id="slide1">
+               
+                    <img src="imagenes/thelast/TLOU_4.jpg" /></a>
+                  </li>
+                  <li id="slide2">
+                    
+                    <img src="imagenes/thelast/TLOU_2.jpg"/>
+                  </li>
+                  <li id="slide3">
+                   
+                     <img src="imagenes/thelast/TLOU_3.jpg"/>
+                    
+                  </li>
+                  <li id="slide4">
+                    
+                    <img src="imagenes/thelast/TLOU_1.jpg"/>
+                  </li>
+                </ul>
+                
+                <ul class="menu">
+                  <li>
+                    <a href="#slide1">1</a>
+                  </li>
+                  <li>
+                    <a href="#slide2">2</a>
+                  </li>
+                   <li>
+                    <a href="#slide3">3</a>
+                  </li>
+                  <li>
+                    <a href="#slide4">4</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="descricpion">
+                <div class="descripcion_parrafo">
+                    <p>
+                        <b>The Last Of Us Parte I</b><br />
+                        <br />
+                        Revive el aclamado juego que lo cambió todo, creado desde cero para la consola PlayStation®5. 
+                        Disfruta de la emotiva historia y los inolvidables personajes de The Last of Us, 
+                        ganador de más de 200 premios de Juego del Año.
+                        En una civilización asolada, plagada de infectados y crueles supervivientes, Joel, nuestro exhausto protagonista, 
+                        es contratado para sacar a escondidas a una chica de 14 años, Ellie, de una zona militar en cuarentena. 
+                        Pero lo que comienza siendo una simple tarea, pronto se transforma en un brutal viaje por el país. 
+                        <br />
+                        <br />
+                        <b>Características principales</b><br />
+                        <br />
+                        En una civilización asolada, plagada de infectados y crueles supervivientes, Joel, nuestro exhausto protagonista, 
+                        es contratado para sacar a escondidas a una chica de 14 años, Ellie, de una zona militar en cuarentena. 
+                        Pero lo que comienza siendo una simple tarea, pronto se transforma en un brutal viaje por el país. 
+            
+                        <br />
+                        <br />
+                        <u>Una guerra por el poder</u> <br />
+                        <br />
+                        Incluye la historia completa para un solo jugador de The Last of Us y el aclamado capítulo previo, Left Behind, 
+                        que explora los acontecimientos que cambiaron la vida de Ellie y su mejor amiga Riley para siempre..<br /><br />
+                        <br />
+                        
+                    </p>
+                </div>
+               
+                <div class="descripcion_parrafo_1">
+                    <p class="primer_color"><b>Características</b></p>
+                    <p class="primer_color">Fabricante</p>
+                    <p class="primer_color">Tipo de dispositivo</p>
+                    <p class="primer_color">Título</p>
+                    <p class="primer_color">Género </p>
+                    <p class="primer_color">Clasificación por edades (PEGI)</p>
+                    <p class="primer_color">Plataforma</p>
+                    <p class="primer_color">Idioma </p>
+                    <p class="primer_color">Formato de almacenamiento </p>
+                    <p class="primer_color">Edición </p>
+                    <p class="primer_color">EAN</p>
+                    </p>
+                </div>
+                <div class="descripcion_parrafo_1">
+                    <p class="segundo_color"><br /></p>
+                    <p class="segundo_color">Sony</p>
+                    <p class="segundo_color">Juego PS5</p>
+                    <p class="segundo_color">The Last Of Us Parte I</p>
+                    <p class="segundo_color">Ciencia Ficción</p>
+                    <p class="segundo_color">18+</p>
+                    <p class="segundo_color">PlayStation 5</p>
+                    <p class="segundo_color">Predeterminado</p>
+                    <p class="segundo_color">Blu-ray</p>
+                    <p class="segundo_color">Estándar</p>
+                    <p class="segundo_color">0711719405894 </p>
+                </div>
+            
+            </div>
+         <% }else if(articulo.equals("Spider-Man")){ modelo="Spider-Man";precio=45; %>    
+            <div>
+        <div id="australia-slider">
+            <ul class="slider">
+                <li id="slide1">
+
+                    <img src="imagenes/spiderman/Spiderman-ps5-imagen1.jpg" /></a>
+                </li>
+                <li id="slide2">
+
+                    <img src="imagenes/spiderman/Spiderman-ps5-imagen2.jpg" />
+                </li>
+                <li id="slide3">
+
+                    <img src="imagenes/spiderman/Spiderman-ps5-imagen3.jpg" />
+
+                </li>
+                <li id="slide4">
+
+                    <img src="imagenes/spiderman/Spiderman-ps5-imagen4.jpg" />
+                </li>
+            </ul>
+
+            <ul class="menu">
+                <li>
+                    <a href="#slide1">1</a>
+                </li>
+                <li>
+                    <a href="#slide2">2</a>
+                </li>
+                <li>
+                    <a href="#slide3">3</a>
+                </li>
+                <li>
+                    <a href="#slide4">4</a>
+                </li>
+            </ul>
+        </div>
+        <div class="descricpion">
+            <div class="descripcion_parrafo">
+                <p>
+                    <b>Marvel's Spider-Man: Miles Morales</b><br />
+                    <br />
+                    Tras los acontecimientos de Marvel's Spider-Man Remasterizado, el adolescente Miles Morales se
+                    adapta a su nuevo
+                    barrio al tiempo que sigue los pasos de Peter Parker, su mentor, para convertirse en un nuevo
+                    Spider-Man. Pero
+                    cuando una feroz lucha de poderes amenaza con destruir su nuevo hogar, el aspirante a héroe se da
+                    cuenta de que
+                    un gran poder conlleva una gran responsabilidad. Para salvar la Nueva York de Marvel, Miles debe
+                    tomar el relevo
+                    de Spider-Man y estar a la altura.<br />
+                    <br />
+                    <b>Características principales</b><br />
+                    <br />
+                    <u>La ascensión de Miles Morales</u> <br />
+                    <br />
+                    Miles Morales descubre poderes sensacionales que lo diferencian de Peter Parker, su mentor. Domina
+                    sus insólitos
+                    ataques bioeléctricos de ráfaga de veneno y su poder de camuflaje, además de las espectaculares
+                    acrobacias con
+                    lanzamiento de telarañas, los artilugios y otras habilidades.<br />
+                    <br />
+                    <u>Una guerra por el poder</u> <br />
+                    <br />
+                    Ha estallado una guerra por el control de la Nueva York de Marvel entre una turbia corporación
+                    energética y un
+                    grupo paramilitar que se surte de armas de alta tecnología. Con su nuevo hogar en pleno campo de
+                    batalla, Miles
+                    aprende el precio de convertirse en héroe mientras decide lo que debe sacrificar por el bien
+                    común.<br />
+                    <br />
+                    <u>Un nuevo hogar lleno de vida</u> <br />
+                    <br />
+                    Descubre las calles nevadas del nuevo barrio de Miles, lleno de bullicio y animación, en su búsqueda
+                    de arraigo.
+                    Cuando empieza a desdibujarse la frontera entre su vida personal y su lucha contra el crimen,
+                    descubre en quién
+                    puede confiar y lo que significa un hogar verdadero.
+                </p>
+            </div>
+           
+            <div class="descripcion_parrafo_1">
+                <p class="primer_color"><b>Características</b></p>
+                <p class="primer_color">Fabricante</p>
+                <p class="primer_color">Tipo de dispositivo</p>
+                <p class="primer_color">Título</p>
+                <p class="primer_color">Género </p>
+                <p class="primer_color">Clasificación por edades (PEGI)</p>
+                <p class="primer_color">Plataforma</p>
+                <p class="primer_color">Franquicia </p>
+                <p class="primer_color">Formato de almacenamiento </p>
+                <p class="primer_color">Edición </p>
+                <p class="primer_color">EAN</p>
+                </p>
+            </div>
+            <div class="descripcion_parrafo_1">
+                <p class="segundo_color"><br /></p>
+                <p class="segundo_color">Sony</p>
+                <p class="segundo_color">Juego PS4</p>
+                <p class="segundo_color">Spider-Man Miles Morales </p>
+                <p class="segundo_color">Acción</p>
+                <p class="segundo_color">16+</p>
+                <p class="segundo_color">PlayStation 5</p>
+                <p class="segundo_color">Marvel</p>
+                <p class="segundo_color">Blu-ray</p>
+                <p class="segundo_color">Estándar</p>
+                <p class="segundo_color">0711719820024 </p>
+            </div>
+        
+        </div>
+         <% }else if(articulo.equals("Red Dead")){ modelo="Red Dead";precio=45; %> 
+            <div>
+    <div id="australia-slider">
+      <ul class="slider">
+        <li id="slide1">
+
+          <img src="imagenes/red/RDR2_3.jpg" /></a>
+        </li>
+        <li id="slide2">
+
+          <img src="imagenes/red/RDR2_2.jpg" />
+        </li>
+        <li id="slide3">
+
+          <img src="imagenes/red/RDR2.jpg" />
+
+        </li>
+        <li id="slide4">
+
+          <img src="imagenes/red/RDR1.jpg" />
+        </li>
+      </ul>
+
+      <ul class="menu">
+        <li>
+          <a href="#slide1">1</a>
+        </li>
+        <li>
+          <a href="#slide2">2</a>
+        </li>
+        <li>
+          <a href="#slide3">3</a>
+        </li>
+        <li>
+          <a href="#slide4">4</a>
+        </li>
+      </ul>
+    </div>
+    <div class="descricpion">
+      <div class="descripcion_parrafo">
+        <p>
+          <b>Red Dead Redemption 2</b><br />
+          <br />
+          América, 1899.
+
+          Arthur Morgan y la banda de Van der Linde son forajidos en busca y captura.
+          Mientras los agentes federales y los mejores cazarrecompensas de la nación les pisan los talones,
+          la banda deberá abrirse camino por el abrupto territorio del corazón de América y sobrevivir a base de robos y
+          peleas. Arthur deberá elegir entre sus propios ideales y la lealtad a la banda que lo vio crecer.
+
+
+
+
+          <br />
+          <br />
+          <b>Características principales</b><br />
+          <br />
+          Con contenido adicional para el Modo Historia y un completo modo Foto, Red Dead Redemption 2 también incluye
+          acceso gratuito al mundo multijugador compartido de Red Dead Online, en el que los jugadores asumen diversos
+          roles para ganarse la vida a su manera en la frontera mientras persiguen a fugitivos buscados como
+          cazarrecompensas, crean un negocio como comerciantes, descubren exóticos tesoros como coleccionistas, dirigen
+          una destilería ilegal como licoristas y muchas cosas más. <br />
+
+          <br />
+          <u>Descripción completa</u> <br />
+          <br />
+          Gracias a las nuevas mejoras gráficas y técnicas que permiten una mayor inmersión en el juego,
+          Red Dead Redemption 2 para PC aprovecha al máximo la potencia de los equipos para conseguir que todos y
+          cada uno de los aspectos de este gigantesco mundo lleno de detalles cobren vida.
+          Incluye mayores distancias de dibujado; iluminación global y oclusión ambiental de mayor calidad,
+          para mejorar la luz tanto de día como de noche; reflejos mejorados y sombras más profundas y
+          de mayor resolución a todas las distancias; texturas de árboles teseladas y texturas de hierba y
+          pelaje mejoradas para aumentar el realismo de las plantas y animales.<br />
+          <br />
+
+          Red Dead Redemption 2 para PC también ofrece compatibilidad con HDR,
+          la posibilidad de utilizar pantallas de alta gama (con resoluciones 4K y superiores),
+          configuraciones con varios monitores, con pantalla panorámica, mayores tasas de fotogramas, etc.<br />
+          <br />
+          
+
+        </p>
+      </div>
+
+      <div class="descripcion_parrafo_1">
+        <p class="primer_color"><b>Características</b></p>
+        <p class="primer_color">Fabricante</p>
+        <p class="primer_color" >Tipo de dispositivo</p>
+        <p class="primer_color">Título</p>
+        <p class="primer_color">Género </p>
+        <p class="primer_color">Clasificación por edades (PEGI)</p>
+        <p class="primer_color">Plataforma</p>
+        <p class="primer_color">Idioma </p>
+        <p class="primer_color">Formato de almacenamiento </p>
+        <p class="primer_color">Edición </p>
+        <p class="primer_color">EAN</p>
+        </p>
+      </div>
+      <div class="descripcion_parrafo_1">
+        <p class="segundo_color"><br /></p>
+        <p class="segundo_color">Rockstar Games</p>
+        <p class="segundo_color">Juego PS5</p>
+        <p class="segundo_color">Red Dead Redemption 2</p>
+        <p class="segundo_color">Acción</p>
+        <p class="segundo_color">18+</p>
+        <p class="segundo_color">PlayStation 5</p>
+        <p class="segundo_color">Castellano</p>
+        <p class="segundo_color">Blu-ray</p>
+        <p class="segundo_color">Estándar</p>
+        <p class="segundo_color">5026555423090 </p>
+      </div>
+
+    </div>
+         <% }else if(articulo.equals("Minecraft")){ modelo="Minecraft";precio=25; %>
+            <div>
+            <div id="australia-slider">                    
+              <ul class="slider"> 
+                  <li id="slide1">
+                    
+                    <img src="imagenes/minecraft/Minecraft-imagen1.jpg" /></a>
+                  </li>
+                  <li id="slide2">
+                   
+                    <img src="imagenes/minecraft/Minecraft-imagen2.jpg"/>
+                  </li>
+                  <li id="slide3">
+                    
+                     <img src="imagenes/minecraft/Minecraft-imagen3.jpg"/>
+                    
+                  </li>
+                  <li id="slide4">
+                    
+                    <img src="imagenes/minecraft/Minecraft-imagen4.jpg"/>
+                  </li>
+                </ul>
+                
+                <ul class="menu">
+                  <li>
+                    <a href="#slide1">1</a>
+                  </li>
+                  <li>
+                    <a href="#slide2">2</a>
+                  </li>
+                   <li>
+                    <a href="#slide3">3</a>
+                  </li>
+                  <li>
+                    <a href="#slide4">4</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="descricpion">
+                <div class="descripcion_parrafo">
+                  <p>
+                    <b>Minecraft: Story Mode</b><br />
+                    <br />
+                      Vuelve la aventura decisiva para Minecrafters, Minecraft: Story Mode. 
+                      Jesse se embarca en un nuevo viaje lleno de difíciles decisiones. 
+                      Minecraft: Story Mode regresa como serie episódica de cinco capítulos que podrás ir descargando a medida
+                      que se encuentren disponibles. Varios años después del final de la Orden de piedra, 
+                      Jesse es el líder de Beacontown y ha descubierto el guantalete Prismarine, 
+                      una reliquia de increíble poder. Junto a sus viejos amigos y nuevos compañeros,
+                      Jesse se embarca en un nuevo viaje lleno de decisiones difíciles, 
+                      diversión y al menos una llama temperamental.
+                      <br />
+                      <br />
+                    <b>Características principales</b><br />
+                    <br />
+                    - Jesse se embarca en un nuevo viaje lleno de decisiones difíciles, diversión y al menos una llama temperamental.<br />
+                    <br />
+                    - Pase de temporada: Incluye el primero de los Cinco nuevos y emocionantes episodios y 
+                      un enlace para descargar los próximos cuatro episodios cuando estos ya estén disponibles.<br />
+                    <br />
+                    - Compatible con la opción Crowd Play, un modo multijugador ideado por Telltale donde amigos y 
+                      familiares pueden ayudar al jugador principal a tomar decisiones con un dispositivo móvil conectado para tal efecto.<br />
+                      <br />
+                    - Fusión del universo Minecraft y el estilo narrativo de Telltale Games: Mediante sus decisiones, 
+                      el jugador irá incorporando elementos tan populares y característicos de Minecraft como la posibilidad de cavar, y determinará cómo se cuenta su historia. <br />
+          
+                    <br />
+                  </p>
+                </div>
+          
+                <div class="descripcion_parrafo_1">
+                  <p class="primer_color"><b>Características</b></p>
+                  <p class="primer_color">Fabricante</p>
+                  <p class="primer_color">Tipo de dispositivo</p>
+                  <p class="primer_color">Título</p>
+                  <p class="primer_color">Género </p>
+                  <p class="primer_color">Clasificación por edades (PEGI)</p>
+                  <p class="primer_color">Plataforma</p>
+                  <p class="primer_color">Idioma </p>
+                  <p class="primer_color">Formato de almacenamiento </p>
+                  <p class="primer_color">Edición </p>
+                  <p class="primer_color">EAN</p>
+                  </p>
+                </div>
+                <div class="descripcion_parrafo_1">
+                  <p class="segundo_color"><br /></p>
+                  <p class="segundo_color">Telltale Games</p>
+                  <p class="segundo_color">Juego PS4</p>
+                  <p class="segundo_color">Minecraft: Story Mode</p>
+                  <p class="segundo_color">Aventura</p>
+                  <p class="segundo_color">7+</p>
+                  <p class="segundo_color">PlayStation 4</p>
+                  <p class="segundo_color">Predeterminado</p>
+                  <p class="segundo_color">Blu-ray</p>
+                  <p class="segundo_color">Estándar</p>
+                  <p class="segundo_color">	0711719703792</p>
+                </div>
+          
+              </div>
+          <% }else if(articulo.equals("Assasing")){ modelo="Assasing";precio=59; %> 
+            <div>
+        <div id="australia-slider">
+            <ul class="slider">
+                <li id="slide1">
+
+                    <img src="imagenes/Assasing/ACValhalla_1.jpg" /></a>
+                </li>
+                <li id="slide2">
+                    
+                    <img src="imagenes/Assasing/ACValhalla_2.jpg" />
+                </li>
+                <li id="slide3">
+                    
+                    <img src="imagenes/Assasing/ACValhalla_4.jpg" />
+
+                </li>
+                <li id="slide4">
+
+                    <img src="imagenes/Assasing/ACValhalla_3.jpg" />
+                </li>
+            </ul>
+
+            <ul class="menu">
+                <li>
+                    <a href="#slide1">1</a>
+                </li>
+                <li>
+                    <a href="#slide2">2</a>
+                </li>
+                <li>
+                    <a href="#slide3">3</a>
+                </li>
+                <li>
+                    <a href="#slide4">4</a>
+                </li>
+            </ul>
+        </div>
+        <div class="descricpion">
+            <div class="descripcion_parrafo">
+                <p>
+                    <b>Assassin Creed Valhalla</b><br />
+                    <br />
+                    Assassin’s Creed Valhalla es compatible con la tecnología Smart Delivery: compra el juego una vez y
+                    juégalo tanto en Xbox One como en Xbox Series X cuando la consola y la versión correspondiente de
+                    Assassin’s Creed Valhalla estén disponibles.
+                    <br />
+                    <br />
+                    En Assassin's Creed® Valhalla, encarnarás a Eivor,
+                    una feroz leyenda vikinga criada entre historias de batallas y gloria.
+                    Explora un hermoso mundo abierto y cambiante ambientado en la despiadada Inglaterra de los años
+                    oscuros.
+                    Saquea a tus enemigos, haz prosperar tu asentamiento y consolida tu poder político mientras luchas
+                    por ganarte un sitio entre los dioses en el Valhalla.
+                    <br />
+                    <br />
+                    <b>ESCRIBE TU PROPIA SAGA VIKINGA: </b><br />
+                    <br />
+                    Las avanzadas mecánicas de RPG te permitirán moldear a tu personaje y al mundo que lo rodea.
+                    Forjarás tu camino hacia la gloria con cada decisión que tomes,
+                    desde alianzas políticas hasta estrategias de combate, pasando por opciones de diálogo y
+                    equipo.<br />
+                    <br />
+                    <b>UN SISTEMA DE COMBATE BRUTAL: </b><br />
+                    <br />
+                    Lucha a dos manos con poderosas armas como hachas, espadas e incluso escudos. Revive el implacable
+                    estilo de lucha de los guerreros vikingos. Decapita sin piedad a tus enemigos, ensártalos desde
+                    lejos o asesínalos desde las sombras gracias a tu hoja oculta. Ponte a prueba con los enemigos más
+                    variados y letales jamás vistos en Assassin's Creed.<br />
+                    <br />
+                    <b>UN MUNDO ABIERTO AMBIENTADO EN LOS AÑOS OSCUROS: </b><br />
+                    <br />
+                    Navega desde las escarpadas y misteriosas costas de Noruega hasta los imponentes reinos de Inglaterra, 
+                    tan hermosos como crueles, y explora nuevos horizontes. Sumérgete en el estilo de vida vikingo: 
+                    pesca, caza, juegos de beber y mucho más.<br />
+                    <br />
+                    <b>DIRIGE SAQUEOS ÉPICOS: </b><br />
+                    <br />
+                    Lanza asaltos multitudinarios contra fortalezas y tropas sajonas por toda Inglaterra. 
+                    Lidera a tu clan, ataca por sorpresa desde tu drakkar, saquea territorios enemigos y arrebátales riquezas
+                    y recursos para tu pueblo.<br />
+                    <br />
+                    <b>HAZ PROSPERAR TU ASENTAMIENTO: </b><br />
+                    <br />
+                    Personaliza aún más tu aventura construyendo y mejorando edificios, desde barracones hasta una herrería,
+                    pasando por un salón de tatuajes y mucho más. 
+                    Recluta miembros para tu clan y crea tu propia experiencia vikinga.<br />
+                    <br />
+                    <b>VIKINGOS MERCENARIOS:  </b><br />
+                    <br />
+                    Crea y personaliza a un saqueador vikingo único en tu clan y compártelo en línea para que ayude a tus amigos en sus saqueos.<br />
+                    <br />
+                </p>
+            </div>
+
+            <div class="descripcion_parrafo_1">
+                <p class="primer_color"><b>Características</b></p>
+                <p class="primer_color">Fabricante</p>
+                <p class="primer_color">Tipo de dispositivo</p>
+                <p class="primer_color">Título</p>
+                <p class="primer_color">Género </p>
+                <p class="primer_color">Clasificación por edades (PEGI)</p>
+                <p class="primer_color">Plataforma</p>
+                <p class="primer_color">Idioma </p>
+                <p class="primer_color">Formato de almacenamiento </p>
+                <p class="primer_color">Edición </p>
+                <p class="primer_color">EAN</p>
+                </p>
+            </div>
+            <div class="descripcion_parrafo_1">
+                <p class="segundo_color"><br /></p>
+                <p class="segundo_color">Ubisoft</p>
+                <p class="segundo_color">Juego PS5</p>
+                <p class="segundo_color">Assassin Creed Valhalla</p>
+                <p class="segundo_color">Acción</p>
+                <p class="segundo_color">18+</p>
+                <p class="segundo_color">PlayStation 5</p>
+                <p class="segundo_color">Español (Castellano);Inglés</p>
+                <p class="segundo_color">Blu-ray</p>
+                <p class="segundo_color">Estándar</p>
+                <p class="segundo_color"> 3307216168379</p>
+            </div>
+        </div>
+         <% }else if(articulo.equals("Horizon")){ modelo="Horizon";precio=59; %>
+            <div>
+            <div id="australia-slider">                    
+              <ul class="slider"> 
+                  <li id="slide1">
+                    
+                    <img src="imagenes/Horizon/Horizon.jpg" /></a>
+                  </li>
+                  <li id="slide2">
+                    
+                    <img src="imagenes/Horizon/Horizon_2.jpg"/>
+                  </li>
+                  <li id="slide3">
+                     
+                     <img src="imagenes/Horizon/Horizon_4.jpg"/>
+                    
+                  </li>
+                  <li id="slide4">
+                    
+                    <img src="imagenes/Horizon/Horizon_5.jpg"/>
+                  </li>
+                </ul>
+                
+                <ul class="menu">
+                  <li>
+                    <a href="#slide1">1</a>
+                  </li>
+                  <li>
+                    <a href="#slide2">2</a>
+                  </li>
+                   <li>
+                    <a href="#slide3">3</a>
+                  </li>
+                  <li>
+                    <a href="#slide4">4</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="descricpion">
+                <div class="descripcion_parrafo">
+                    <p>
+                        <b>Horizon Forbidden West</b><br />
+                        <br />
+                        Acompaña a Aloy en su aventura por las peligrosas y fantásticas tierras del "Oeste Prohibido" y 
+                        enfréntate a nuevas y misteriosas amenazas.
+                        <br />
+                        <br />
+                        Explora páramos remotos, enfréntate a máquinas más grandes e imponentes y 
+                        descubre increíbles tribus en tu regreso a un futuro lejano en el mundo apocalíptico de Horizon.
+                        <br />
+                        <br />
+                        La tierra se muere. Las rugientes tormentas y 
+                        una desolación imparable causan estragos entre lo que queda de la humanidad, 
+                        unas cuantas tribus dispersas, mientras nuevas y temibles máquinas merodean por 
+                        sus fronteras. La vida en la Tierra se enfrenta a una nueva extinción y nadie sabe por qué.
+                        <br />
+                        <br />
+                        Solo Aloy es capaz de descubrir los secretos que hay detrás de estas amenazas, 
+                        y restablecer el orden y el equilibrio en el mundo. Por el camino, 
+                        se reunirá con viejos amigos, forjará alianzas con nuevas facciones en guerra y
+                         descubrirá la herencia de un antiguo pasado, 
+                         al tiempo que intenta permanecer un paso por delante de un nuevo y 
+                         aparentemente invencible enemigo.
+                        <br />
+                        <br />
+                        
+                    </p>
+                </div>
+    
+                <div class="descripcion_parrafo_1">
+                    <p class="primer_color"><b>Características</b></p>
+                    <p class="primer_color">Fabricante</p>
+                    <p class="primer_color">Tipo de dispositivo</p>
+                    <p class="primer_color">Título</p>
+                    <p class="primer_color">Género </p>
+                    <p class="primer_color">Clasificación por edades (PEGI)</p>
+                    <p class="primer_color">Plataforma</p>
+                    <p class="primer_color">Idioma </p>
+                    <p class="primer_color">Formato de almacenamiento </p>
+                    <p class="primer_color">Edición </p>
+                    <p class="primer_color">EAN</p>
+                    </p>
+                </div>
+                <div class="descripcion_parrafo_1">
+                    <p class="segundo_color"><br /></p>
+                    <p class="segundo_color">Sony</p>
+                    <p class="segundo_color">Juego PS5</p>
+                    <p class="segundo_color">Horizon Forbidden West</p>
+                    <p class="segundo_color">Ciencia Ficción</p>
+                    <p class="segundo_color">16+</p>
+                    <p class="segundo_color">PlayStation 5</p>
+                    <p class="segundo_color">Español (Castellano)</p>
+                    <p class="segundo_color">Blu-ray</p>
+                    <p class="segundo_color">Estándar</p>
+                    <p class="segundo_color"> 0711719720492</p>
+                </div>
+            </div>
+         <% } %>  
+        </center>
+        
+        <center>
+        <div class="contenedorAñadir">
+            <form method="post" action="Compra">
+                <input type="hidden" name="origen" value="articulo"/>
+                <input type="hidden" name="modelo" value="<%=modelo%>"/>
+                <input type="hidden" name="precio" value="<%=precio%>"/>
+                <center> ¿Cuántas unidades quiere? <input type="number" name="cantidad" value="1" min="1" max="10"/>
+               
+                    </br></br></center>
+                <center> <input type="submit" name="submit" value="         Añadir al carrito        "/></center>
+            </form> 
+        </br><br/>
+            <form method="post" action="Compra">            
+                <input type="hidden" name="origen" value="eliminar"/> 
+                <input type="hidden" name="modelo" value="<%=modelo%>"/>
+                <input type="hidden" name="precio" value="<%=-precio%>"/>
+                <input type="number" name="cantidad" value="1" min="1" max="10"/>
+                <input type="submit" value="Eliminar"/>       
+            </form>
+                </br>
+            <form method="post" action="Compra">            
+                <input type="hidden" name="origen" value="noarticulo"/>          
+                <input type="submit" value="Cancelar"/></center>  
+                    
+            </form>
+        </div>
+        <footer>
+        <div class="superior">
+            <div class="contenedorLogo">
+                <div class="espacioLogo">
+                    <img class="btn-logo" src="iconos/TodoGaming1.png" alt="Logo Agencia">
+                </div>
+            </div>
+            <div class="contenedorDatos">
+              <h3>Sobre nosotros</h3>
+              <p><span class="material-icons">settings_phone</span> 675847583</p>
+              <p><span class="material-icons">forward_to_inbox</span> todogaming@gmail.com</p>
+              <p><span class="material-icons">push_pin</span>IES Clara del Rey</p>
+              <p><span class="material-icons">location_city</span> Madrid, ESPAÑA</p>
+          </div>
+          <div class="contenedorRedes">
+              <div class="titulo">
+                  <h3>Síguenos</h3>
+              </div>
+              <div class="iconos">
+                  <div class="twitter">
+                      <a target="_blank" href="https://twitter.com/?lang=es"><img class="btn-twitter" src="iconos/twitter.png" alt="Logo Twitter"></a>
+                  </div>
+                  <div class="instagram">
+                      <a target="_blank" href="https://www.instagram.com/"><img class="btn-instagram" src="iconos/instagram.png" alt="Logo instagram"></a>
+                  </div>
+                  <div class="snapchat">
+                      <a target="_blank" href="https://www.snapchat.com/es"><img class="btn-snapchat" src="iconos/snapchat.png" alt="Logo snapchat"></a>
+                  </div>
+                  <div class="whatsapp">
+                      <a target="_blank" href="https://web.whatsapp.com/"><img class="btn-whatsapp" src="iconos/whatsapp.png" alt="Logo whatsapp"></a>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="inferior">
+          <p>© Copyright 2001-2023 Copyright.es - Todos los Derechos Reservados</p>
+      </div>
+    </footer>
+    </body>
+</html>
