@@ -1,0 +1,406 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #272727;
+    padding-top: 0px;
+}
+
+header {
+    background-color: #00113eed;
+    display: flex;
+    gap: 15%;
+    top: 0;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.headerCompleto {
+    width: 100%;
+    height: 140%;
+    border-radius: 2%;
+}
+
+.logo {
+    height: 110px;
+}
+
+
+.header ul {
+    list-style: none;
+}
+
+.nav {
+    border-collapse: collapse;
+    border-radius: 1em;
+    overflow: hidden;
+}
+
+#nave {
+    padding: 0%;
+   
+    margin-left: 87%;
+    list-style: none;
+    background-color: #00113eed;
+}
+#logear {
+    padding: 0%;
+    margin-right: 55%;
+    
+    list-style: none;
+    background-color: #00113eed;
+}
+#carrito {
+    list-style: none;
+    background-color: grey;
+}
+
+#vaciar-carrito {
+    border: 1px solid white;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    background-color: grey;
+
+}
+
+.nav>li {
+    float: left;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 12px;
+}
+
+.nav ul {
+    background-color: #000;
+    color: #fff;
+}
+
+.nav li a {
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+.nav li a:hover {
+    background-color: #434343;
+}
+
+.nav li ul {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+.nav li:hover>ul {
+    display: block;
+}
+
+.nav li ul li {
+    position: relative;
+}
+
+.nav li ul li ul {
+    right: -140px;
+    top: 0px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+
+}
+
+.imagenlanzamiento {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.ultimolanzamiento {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    background-color: #00113eed;
+    padding: 2%;
+    border-radius: 20px 20px 0px 0px;
+
+}
+
+.masVendido {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 2%;
+    justify-content: center;
+    background-color: #00113eed;
+    border-radius: 20px 20px 20px 20px;
+}
+
+h1 {
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.contenedor>img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.contenedor #lista-cursos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+
+
+.contenedor #lista-cursos>div {
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    background-color: #162e54;
+    border-radius: 20px;
+
+}
+
+.contenedor #lista-cursos>div:hover {
+    background-color: #00113eed;
+}
+
+.contenedor #lista-cursos .informacion {
+    height: 150PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contenedor #lista-cursos .informacion>p:first-child {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+form input {
+    color: black;
+}
+
+/* footer */
+footer {
+    display: flex;
+    flex-direction: column;
+    color: #ccc;
+    font-family: 'Manrope', sans-serif;
+    background-color: #000000ed;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 300px;
+}
+
+.superior {
+    height: 295px;
+    display: flex;
+}
+
+.inferior {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedorLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border: none;
+    width: 33%;
+}
+
+.btn-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    border-radius: 50px;
+}
+
+.contenedorDatos {
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border: none;
+    width: 23%;
+    padding-left: 80px;
+    padding-top: 10px;
+}
+
+.contenedorRedes {
+    border: 1px solid white;
+    border: none;
+    width: 43%;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border: none;
+    width: 100%;
+    padding-top: 6px;
+}
+
+.iconos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 30px;
+}
+
+.twitter {
+    border: 1px solid white;
+    border: none;
+    background-color: #333333;
+    border-radius: 9px;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.twitter:hover {
+    background-color: #44448f;
+    box-shadow: 0px 0px 10px 5px rgb(30, 65, 160);
+}
+
+.btn-twitter {
+    width: 45px;
+    height: auto;
+    justify-content: center;
+    padding-top: 15px;
+    padding-left: 2px;
+}
+
+.instagram {
+    border: 1px solid white;
+    border: none;
+    background-color: #333333;
+    border-radius: 9px;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn-instagram {
+    padding-left: 11px;
+    padding-top: 12px;
+    width: 40px;
+    height: auto;
+    justify-content: center;
+}
+
+.instagram:hover {
+    background-color: #5d3d69;
+    box-shadow: 0px 0px 10px 5px rgb(128, 41, 128);
+}
+
+.snapchat {
+    border: 1px solid white;
+    border: none;
+    background-color: #333333;
+    border-radius: 9px;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn-snapchat {
+    padding-left: 11px;
+    padding-top: 12px;
+    width: 40px;
+    height: auto;
+    justify-content: center;
+}
+
+.snapchat:hover {
+    background-color: #515532;
+    box-shadow: 0px 0px 10px 5px rgb(121, 119, 31);
+}
+
+.whatsapp {
+    border: 1px solid white;
+    border: none;
+    background-color: #333333;
+    border-radius: 9px;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn-whatsapp {
+    padding-left: 15px;
+    padding-top: 14px;
+    width: 40px;
+    height: auto;
+    justify-content: center;
+}
+
+.whatsapp:hover {
+    background-color: #335c36;
+    box-shadow: 0px 0px 10px 5px rgb(19, 133, 38);
+}
+
+.contenedorDatos a:link {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.contenedorDatos a:visited {
+    color: #ccc;
+}
+
+.info-card {
+    padding: 10px 20px;
+}
+
+.precio {
+    text-decoration: line-through;
+    font-size: 18px;
+}
+
+.precio_rebajado {
+    color: yellow;
+    font-size: 18px;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.button.button-primary {
+    width: 200px;
+    height: 200px;
+    color: #FFF;
+    margin-bottom: 5px;
+    padding-top: 3px;
+    text-align: center;
+    background-color: gray;
+    border: 2px solid black;
+    text-decoration: none;
+}
