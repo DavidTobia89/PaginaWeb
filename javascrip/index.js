@@ -120,4 +120,5 @@ function vaciarCarrito() {
      while(contenedorCarrito.firstChild) {
           contenedorCarrito.removeChild(contenedorCarrito.firstChild);
       }
+     localStorage.removeItem('carrito');
 }
